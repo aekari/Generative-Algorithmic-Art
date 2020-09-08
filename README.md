@@ -1,4 +1,4 @@
-# Artist and Computer Recreation
+# Artist and Computer Re-Creation
 This is a homework assignment for the 1st and 2nd weeks of Programming for Artists. I chose to use [William J. Kolomyjec's piece 'Birds](https://www.atariarchives.org/artist/sec15.php) as inspiration.
 
 #### My goals were to:
