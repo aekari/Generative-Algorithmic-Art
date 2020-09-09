@@ -14,19 +14,18 @@ void setup() {                                  // (setup the canvas and run cod
 
 void draw() {                                   // (begin the draw function)
   // This is the for loop function that will create all the boxes
-  for (int x = 0; x < 661; x = x+55) {          // asign var x to 0; as long as var x is less than 606, add 55 to x. (makes 12 columns of boxes (55 x 12 = 660)
+  for (int x = 0; x < 661; x = x+55) {          // asign var x to 0; as long as var x is less than 661, add 55 to x. (this makes 12 columns of boxes (55 x 12 = 660)
     for (int y = 0; y < 386; y = y+55) {        // asign var y to 0; as long as var y is less than 386, add 55 to y. (makes 7 rows of boxes (55 x 7 = 385)
-      // This if statement makes exceptions for the boxes in the center that I want to animate      
+      // This if statement makes exceptions for the boxes in the center that I want to appear “invisible”      
       if (
         (x > 220) && (x < 385) && (y == 55) ||  // if these conditions are met (targets the 6th & 7th boxes on the 2nd row) OR
         (x > 165) && (x < 440) && (y == 110)||  // if these conditions are met (targets the 5th - 8th boxes on the 3rd row) OR
         (x > 110) && (x < 495) && (y == 165)||  // if these conditions are met (targets the 4th - 9th boxes on the 4th row) OR
         (x > 165) && (x < 440) && (y == 220)||  // if these conditions are met (targets the 5th - 8th boxes on the 5th row) OR
         (x > 220) && (x < 385) && (y == 275)) { // if these conditions are met (targets the 6th & 7th boxes on the 6th row, then do the following:   
-
         //This if...else statement controls the changes to the mousePressed() settings for the center boxes when the user clicks within the canvas
         if (mousePressed == true) {             // when the mouse is pressed,
-          fill(#005166);                        // change the fill of the center boxes a darker blue color
+          fill(#005166);                        // change the fill of the center boxes a darker blue color, and
           noStroke();                           // remove the outline from these center boxes.
         } else {                                // otherwise,
           fill(#e8eae6);                        // make the fill in the center boxes a light gray color and
@@ -50,23 +49,23 @@ void draw() {                                   // (begin the draw function)
   //This for statement makes the animated boxes in the center of the screen
   for (int i = 0; i < 20; i = i + 1) {          // keep making squares until 20 are made
     push();                                     // push these new stylings for the code in this section up until pop() is reached to end it;
-    rectMode(CENTER);                           // make the rectangles origins relative to the center point as opposed to the upper lefthand corner; 
+    rectMode(CENTER);                           // make the rectangle origin points relative to their center point as opposed to the upper lefthand corner; 
     float x = width/2;                          // make a variable called x a decimal that is equal to half of the width of the canvas
     float y = height/2;                         // make a variable called y a decimal that is equal to half of the height of the canvas
     float r = random(0, .1);                    // make a variable called r that is randomly assigned a number between 0 and .1
-    float rX = random(-100, 100);               // create float datatype variable called rX and assign it to a random decimal between -6 and 200
+    float rX = random(-100, 100);               // create float datatype variable called rX and assign it to a random decimal between -100 and 100
     float rY = random(-100, 100);               // create a float datatype cariable called yX and assign it to a random decimal between -100 and 100
-    translate(rX, rY);                          // translate will have an x coordinate that will increase by 1 until it reaches 199, with a random float anywhere between -6 and 200
-    rotate((random(r)));                        // roate the boxes anywhere between -6 and 200 radians
+    translate(rX, rY);                          // translate will have random x and y coordinates anywhere between -100 and 100 pixels around the center point of the page
+    rotate((random(r)));                        // roatate the boxes anywhere between 0 and .1 (degrees?)
     noFill();                                   // do not fill the boxes in with a color
-    square(x, y, 55);                           // make a 55x55 px square with an orgin point of 0 (the tranlate code on line 34 will randomly translate the orgin points from 00 to other numbers
+    square(x, y, 55);                           // make a 55x55 px square with an orgin point of 0 (the tranlate code on line 58 will randomly translate the orgin points from 00 to other coordinates within the center of the canvas
     // This if...else statement controls the randomized boxes that appear and dissapear in the center of the canvas
     if (mousePressed == true) {                 // when the mouse is pressed,
       stroke(#00ccff);                          // make the stroke of the randomized boxes a blue color
     } else {                                    // otherwise,
       stroke(#100c08);                          // make the stroke a dark color
     };                                          // (end the else statement)
-    pop();                                      // go back to using the styling that was used before pop() was initiated;
+    pop();                                      // go back to using the styling that was used before push() was initiated;
   };                                            // (end of the for loop)
   // This section is for the text area at the bottom of the canvas
   fill(#100c08);                                // create a dark fill and
