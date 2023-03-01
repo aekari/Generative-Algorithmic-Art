@@ -8,3 +8,5 @@ This is a homework assignment for the 1st and 2nd weeks of [Programming for Arti
 I used [The Coding Train on Youtube ](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) & [Processing 5's Reference page](https://processing.org/reference/).
 
 Contact me at [my website](https://www.ashleighekari.com/contact) if you have questions!
+
+![](https://i.imgur.com/7H0llMB.gif)
