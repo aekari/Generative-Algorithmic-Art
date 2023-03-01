@@ -1,4 +1,4 @@
-# Generative Algorithmic Art
+# Generative/Algorithmic Art
 This is a [generative/algorithmic](https://en.wikipedia.org//wiki/Generative_art) assignment for the 1st and 2nd weeks of [Programming for Artists](https://iq2prod1.smartcatalogiq.com/en/Catalogs/City-College-of-New-York/2017-2018/Undergraduate-Bulletin/Courses/ART-Art-Course-Descriptions/30000/ART-39552). I chose to use [William J. Kolomyjec's piece 'Birds'](https://www.atariarchives.org/artist/sec15.php) as inspiration.
 
 #### My goals were to:
