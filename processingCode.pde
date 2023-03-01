@@ -71,5 +71,5 @@ void draw() {                                   // (begin the draw function)
   fill(#100c08);                                // create a dark fill and
   rect(0, height-20, width, 20);                // apply it to a rectangle that fits on the bottom of the canvas
   fill(#ffffff);                                // create a white fill and
-  text("Ashleigh Nichols 2020 | Inspired by William J. Kolomyjec's work 'Boxes.'", 230, 400); //apply it to this text
+  text("Ashleigh Nichols 2020 | Inspired by William J. Kolomyjec's work 'Birds.'", 150, 400); //apply it to this text
 }                                               // (end of the draw function)
