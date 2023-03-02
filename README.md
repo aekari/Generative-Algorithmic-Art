@@ -3,7 +3,7 @@ This is a [generative/algorithmic](https://en.wikipedia.org//wiki/Generative_art
 
 #### My goals were to:
 - Create a Processing 5 sketch that incorporates a change in color based on mouse input and
-- Include a random element that changes with user input.
+- Has an element of randomness with user input.
 #### Resources:
 I used [The Coding Train on Youtube ](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) & [Processing 5's Reference page](https://processing.org/reference/).
 
