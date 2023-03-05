@@ -4,7 +4,7 @@
 
 ## Technologies Used
 
-* ![](https://img.shields.io/badge/-PROCESSING-black.svg?style=flat-square&logo=processingfoundation&colorB=000)
+![](https://img.shields.io/badge/-PROCESSING-black.svg?style=flat-square&logo=processingfoundation&colorB=000)
 
 ## Description
 
