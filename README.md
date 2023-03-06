@@ -1,6 +1,5 @@
 # Generative/Algorithmic Art
-
-#### A Processing sketch that incorporates a change in color based on mouse input and algorythmicly has randomness.
+A Processing sketch that incorporates a change in color based on mouse input and algorythmic pseudorandomness.
 
 ## Technologies Used
 
