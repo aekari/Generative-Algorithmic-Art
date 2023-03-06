@@ -13,6 +13,8 @@ My goals were to:
 - Create a Processing sketch that incorporates a change in color based on mouse input and
 - Include an element that has pseudorandomness
 
+If you are curious how I accomplished this, please look the .[pde file](https://github.com/aekari/Generative-Algorithmic-Art/blob/gh-pages/processingCode.pde) as I have commented every line of code explaining what everything means.
+
 ## Setup/Installation Requirements
 
 1. Install [Processing](https://processing.org)
