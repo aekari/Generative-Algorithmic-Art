@@ -9,9 +9,9 @@ A Processing sketch that incorporates a change in color based on mouse input and
 
 This is a [generative/algorithmic](https://en.wikipedia.org//wiki/Generative_art) assignment completed for the 1st and 2nd weeks of [Programming for Artists](https://iq2prod1.smartcatalogiq.com/en/Catalogs/City-College-of-New-York/2017-2018/Undergraduate-Bulletin/Courses/ART-Art-Course-Descriptions/30000/ART-39552). I chose to use [William J. Kolomyjec's piece 'Birds'](https://www.atariarchives.org/artist/sec15.php) as inspiration.
 <br><br>
-My goals were to:
-- Create a Processing sketch that incorporates a change in color based on mouse input and
-- Include an element that has pseudorandomness
+My goals were to create a Processing sketch that:
+- Incorporates a change in color based on mouse input and
+- Includess pseudorandomness
 
 If you are curious how I accomplished this, please look the .[pde file](https://github.com/aekari/Generative-Algorithmic-Art/blob/gh-pages/processingCode.pde) as I have commented every line of code explaining what everything means.
 
