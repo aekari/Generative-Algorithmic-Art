@@ -1,5 +1,5 @@
 # Generative/Algorithmic Art
-A Processing sketch that incorporates a change in color based on mouse input and algorythmic pseudorandomness.
+A Processing sketch that incorporates a change in color based on mouse input and has pseudorandomness.
 
 ## Technologies Used
 
@@ -11,7 +11,7 @@ This is a [generative/algorithmic](https://en.wikipedia.org//wiki/Generative_art
 <br><br>
 My goals were to:
 - Create a Processing sketch that incorporates a change in color based on mouse input and
-- Include an element of randomness that is triggered with user input
+- Include an element that has pseudorandomness
 
 ## Setup/Installation Requirements
 
